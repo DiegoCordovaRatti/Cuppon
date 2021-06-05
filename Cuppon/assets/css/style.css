@@ -1,0 +1,32 @@
+body{
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.card{ /* Centrado de cartas - Stack Overflow */
+    margin: 0 auto; 
+}
+
+h5{
+    color: #212529;
+}
+
+.card{
+    transition: 300ms ease;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px #a3b1a28c;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.336);
+
+}
+
+#button {
+    transition: 500ms ease;
+  }
+  
+  #button:hover {
+    background-color: #67b869; /* Green */
+    color: white;
+  }
